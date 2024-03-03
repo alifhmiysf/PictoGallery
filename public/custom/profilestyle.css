@@ -1,0 +1,169 @@
+/* Contoh CSS untuk font dan warna */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333; /* Warna teks */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mulish', sans-serif;
+    color: #333; /* Warna judul */
+}
+
+.navbar-light {
+    background-color: #007bff; /* Warna latar navbar */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Warna latar tombol primary */
+    border-color: #007bff; /* Warna border tombol primary */
+    color: #fff; /* Warna teks tombol primary */
+}
+
+
+/* Contoh CSS untuk Navbar */
+.navbar-light {
+    background-color: #007bff;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-family: 'Prata', serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0056b3;
+}
+
+.navbar-light .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+
+  /* Desktop Navigation Custom Styles */
+  @media (min-width: 1200px) {
+    .d-flex .navmenu {
+      margin-left: auto;
+    }
+  }
+
+  /* Desktop Navigation Custom Styles */
+  @media (min-width: 1024px) {
+    .d-flex .navmenu {
+      margin-left: auto;
+    }
+  }
+
+/* Contoh CSS untuk Tombol Unggah */
+.ButtonUnggah {
+    margin-left: 1rem; /* Margin agar terpisah dari navbar */
+}
+
+.btn-primary {
+    background-color: #28a745; /* Warna latar tombol */
+    border-color: #28a745; /* Warna border tombol */
+    color: #fff; /* Warna teks tombol */
+}
+
+.btn-primary:hover {
+    background-color: #218838; /* Warna latar tombol saat dihover */
+    border-color: #1e7e34; /* Warna border tombol saat dihover */
+}
+
+/* Contoh CSS untuk Grid Foto */
+.card {
+    margin-bottom: 1rem;
+}
+
+.modal-body img {
+    width: 100%;
+    height: auto;
+}
+
+.modal-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.modal-content {
+    border: none; /* Menghilangkan border modal */
+}
+
+
+/* Contoh CSS untuk Modal */
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: none; /* Menghilangkan border bawah header modal */
+}
+
+.modal-footer {
+    border-top: none; /* Menghilangkan border atas footer modal */
+}
+
+.btn-light {
+    background-color: #fff; /* Warna latar tombol light */
+    border-color: #ccc; /* Warna border tombol light */
+    color: #333; /* Warna teks tombol light */
+}
+
+.btn-light:hover {
+    background-color: #f8f9fa; /* Warna latar tombol light saat dihover */
+}
+
+
+
+  #drag-drop-area {
+    height: 100%;
+}
+
+
+
+
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.custom-input {
+    border-color: #ccc;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 8px 8px 0 0;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card .card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}

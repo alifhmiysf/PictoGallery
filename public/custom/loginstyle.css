@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(45deg, #001F3F, #0D6EFD, #6A5ACD, #BA55D3);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+        filter: brightness(100%);
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Desktop Navigation Custom Styles */
+@media (min-width: 1200px) {
+    .d-flex .navmenu {
+        margin-left: auto;
+    }
+}
+
+/* Desktop Navigation Custom Styles */
+@media (min-width: 1024px) {
+    .d-flex .navmenu {
+        margin-left: auto;
+    }
+}
+
+    .btn-primary {
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        border: none;
+        /* Hilangkan border */
+    }
+
+    /* Tambahkan efek warna latar belakang dan animasi transform saat tombol di-hover */
+    .btn-primary:hover {
+        background-color: #87C4FF;
+        /* Ganti dengan warna latar belakang yang diinginkan */
+        transform: scale(1.1);
+        /* Animasi membesar */
+    }
